@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1 - Button Component</title>
+    <style>
+        .c-button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px;
+            width: fit-content;
+            color: rgb(255, 255, 255);
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+        }
+
+        .c-button-primary {
+            background-color: #ff9d00;
+        }
+
+        .c-button-primary:hover {
+            background-color: #ff8400;
+        }
+
+        .c-button-secondary {
+            background-color: #ffbc35;
+        }
+
+        .c-button-secondary:hover {
+            background-color: #ffb012;
+        }
+
+        .c-button-disabled {
+            background-color: #aaaaaa;
+            color: #6c757d;
+            cursor: not-allowed;
+        }
+
+        .c-button-selected {
+            background-color: #5ccd2c;
+        }
+
+        .c-button-selected:hover {
+            background-color: #4cae1a;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Primary Button</h2>
+    <div class="c-button c-button-primary">Primary</div>
+
+    <h2>Secondary Button</h2>
+    <div class="c-button c-button-secondary">Secondary</div>
+
+    <h2>Disabled Button</h2>
+    <div class="c-button c-button-disabled">Disabled</div>
+
+    <h2>Selected Button</h2>
+    <div class="c-button c-button-selected">Selected</div>
+
+</body>
+</html> 
